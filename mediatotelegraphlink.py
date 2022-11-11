@@ -31,7 +31,7 @@ reply_markup=InlineKeyboardMarkup( [[
 
                InlineKeyboardButton("Updates", url="https://t.me/Hellbotsupport")
 
-               ]
+               ]]
                )
     )
             
