@@ -27,9 +27,9 @@ To generate links in **group chats**, add me to your supergroup and send the com
 """
 reply_markup=InlineKeyboardMarkup( [[
 
-               InlineKeyboardButton("ʜᴇʟᴩ & ᴄᴍᴅꜱ", callback_data="help"),
+               InlineKeyboardButton("Support", url="https://t.me/Hellbotsupport"),
 
-               InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴩᴇʀ", callback_data="source")
+               InlineKeyboardButton("Updates", url="https://t.me/Hellbotsupport")
 
                ]
                )
