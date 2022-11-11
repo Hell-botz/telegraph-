@@ -24,16 +24,16 @@ Simply send a valid media file directly to this chat.
 Valid file types are 'jpeg', 'jpg', 'png', 'mp4' and 'gif'.
 
 To generate links in **group chats**, add me to your supergroup and send the command <code>/tl</code> as a reply to a valid media file.
+
+<a href=https://t.me/Tgraph_rbot>𝗦𝗨𝗣𝗣𝗢𝗥𝗧</a>  ||  <a href=https://t.me/hell_botz>𝗨𝗣𝗗𝗔𝗧𝗘𝗦</a>
+
+
+
+
+
 """
-reply_markup=InlineKeyboardMarkup( [[
 
-               InlineKeyboardButton("Support", url="https://t.me/Hellbotsupport"),
-
-               InlineKeyboardButton("Updates", url="https://t.me/Hellbotsupport")
-
-               ]]
-               )
-    )
+     
             
     await teletips.send_message(message.chat.id, text, disable_web_page_preview=True)
     
